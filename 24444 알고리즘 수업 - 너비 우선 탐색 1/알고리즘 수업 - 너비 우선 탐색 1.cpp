@@ -35,6 +35,10 @@ vector<int> bfs(int start, vector<int> graph[], vector<bool>& visit)
 
 int main()
 {
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+	
 	int N, M, R;
 	cin >> N >> M >> R;
 
